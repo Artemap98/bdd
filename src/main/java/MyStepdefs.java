@@ -31,4 +31,18 @@ public class MyStepdefs {
         }
         throw new PendingException();
     }
+
+    @Given("^I have created field$")
+    public void iHaveCreatedField() {
+        
+    }
+
+    @When("^I do move left$")
+    public void iDoMoveLeft() {
+        
+    }
+
+    @Then("^Cell righter the zero cell move left and the zero cells move right$")
+    public void cellRighterTheZeroCellMoveLeftAndTheZeroCellsMoveRight() {
+    }
 }
