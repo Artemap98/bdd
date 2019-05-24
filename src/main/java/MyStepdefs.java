@@ -44,5 +44,10 @@ public class MyStepdefs {
 
     @Then("^Cell righter the zero cell move left and the zero cells move right$")
     public void cellRighterTheZeroCellMoveLeftAndTheZeroCellsMoveRight() {
+        
+    }
+
+    @Then("^Cells righter the zero cell move left and cells with equal nubers is merge together$")
+    public void cellsRighterTheZeroCellMoveLeftAndCellsWithEqualNubersIsMergeTogether() {
     }
 }

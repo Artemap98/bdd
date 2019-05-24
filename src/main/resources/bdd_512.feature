@@ -7,4 +7,7 @@ Feature: Checking game creation and working
   Scenario: Checking game field left move
     Given I have created field
     When I do move left
-    Then Cell righter the zero cell move left and the zero cells move right
+    Then Cells righter the zero cell move left and cells with equal nubers is merge together
+
+
+
